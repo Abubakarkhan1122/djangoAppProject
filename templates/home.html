@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% block body %}
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner banner">
+    <div class="carousel-item active">
+        <img src="/static/pic1.jpg" class="d-block w-100 h-25" alt="...">
+        <p class="main_text">Grow Big With <br> Developing Business</p>
+        <p class="sub_text">
+“Any fool can write code that a computer can understand. <br>Good programmers write code that humans can understand.” </p>
+        <a href="/contact" class="btn btn-info hire_btn">Hire Me</a>
+    </div>
+  </div>
+</div>
+    <div class="text-center px-3 py-3">
+    <h2>Me To A Glance </h2>
+    </div>
+    <div class="row mt-2 px-3 justify-content-center mb-4">
+    <div class="card col-md-3" style="width: 18rem;">
+  <img src="/static/pic2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Developer</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    <div class="card col-md-3" style="width: 18rem;">
+  <img src="/static/pic3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Programmer</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    <div class="card col-md-3" style="width: 18rem;">
+  <img src="/static/pic4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Designer</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    </div>
+    <style>
+    .banner{
+        position: relative;
+    }
+    .main_text{
+        text-shadow: 5px 2px blue;
+        color: whitesmoke;
+        position: absolute;
+        top: 40%;
+        font-size: 50px;
+        left:5%;
+
+    }
+        .sub_text{
+            text-shadow: 5px 2px #4545e5;
+        color: whitesmoke;
+        position: absolute;
+        top: 55%;
+        font-size: 30px;
+        left:5%;
+    }
+        .hire_btn{
+        position: absolute;
+        top: 70%;
+        left:5%;
+    }
+</style>
+
+{% endblock body %}
